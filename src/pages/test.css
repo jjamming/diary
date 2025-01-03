@@ -1,0 +1,72 @@
+.Header{
+    width: 1440px;
+    height: 112px;
+    flex-shrink: 0;
+    display : flex;
+    align-items: center;
+}
+
+.Header > button {
+    display : inline;
+}
+
+.world-peas{
+    margin: 41px 497px 39px 96px ;
+    color: #426B1F;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Newsreader;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 32px */
+letter-spacing: -0.32px;
+}
+
+.text{
+    margin-right: 48px;
+    color: #000;
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+}
+.Cart{
+    display: inline-flex;
+padding: 13.5px 23px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #426B1F;
+color: #FFF;
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 130%; /* 20.8px */
+box-shadow: none;
+border: none;
+}
+button:hover{
+    filter: brightness(0.7);
+}
+
+.Main{
+    width: 1020px;
+    color: #000;
+text-align: center;
+margin:auto;
+
+margin-top: 167px;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Newsreader;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 76.8px */
+letter-spacing: -1.28px;
+}
